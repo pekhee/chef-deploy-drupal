@@ -2,5 +2,5 @@ site :opscode
 
 metadata
 
-cookbook 'drush', :git => 'git://github.com/homemade/chef-drush.git'
+cookbook 'drush', git: 'https://github.com/msonnabaum/chef-drush'
 cookbook 'minitest-handler'

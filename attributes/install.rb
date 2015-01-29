@@ -10,6 +10,9 @@ default['deploy-drupal']['install']['db_name']  = 'drupal'
 default['deploy-drupal']['install']['admin_user'] = 'admin'
 default['deploy-drupal']['install']['admin_pass'] = 'admin'
 
+# Drush
+default['drush']['install_method'] = 'pear'
+
 # path to sql dump file (can be .sql.gz) to populate the database
 # can be absolute or relative to project root
 default['deploy-drupal']['install']['sql_dump'] = ''
